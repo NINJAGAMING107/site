@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Parallax</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap">
+  <link rel="stylesheet" type = "text/css" href="index_style.css">
+  <link rel="icon" type="image/png" href="logo.png"/>
+</head>
+    <H2>Hello welcome to my website</H2/>
+      
+      <p>Press the plus icon and press<br>one icon which you want to view.</p>
+
+      <img class="icon" src="icons.png">
+      <img class="ps" src="ps.png"
+
+<body>
+    <div class="menu">
+        <div class="toggle"><img 
+          witdth="60"
+          height="60"
+          src="menu.svg">
+        </div>
+        
+        <li style="--i:0;">
+          <a href="home.html">
+            <img 
+            witdth="40"
+            height="40"
+            src="home.svg">
+          </a>
+        </li>
+
+        <li style="--i:1;">
+          <a href="about.html">
+            <img 
+          witdth="50"
+          height="50"
+          src="about.svg">
+          </a>
+        </li>
+
+        <li style="--i:2;">
+          <a href="explore.html">
+            <img 
+          witdth="50"
+          height="50"
+          src="explore.svg">
+          </a>
+        </li>
+        
+        <li style="--i:3;">
+          <a href="code.html">
+            <img 
+          witdth="40"
+          height="40"
+          src="coding.svg">
+          </a>
+        </li>
+        
+        </li>
+        <li style="--i:4;">
+          <a href="work.html">
+            <img 
+          witdth="40"
+          height="40"
+          src="work.svg">
+          </a>
+        </li>
+
+        <li style="--i:5;">
+          <a href="contact.html">
+            <img 
+            witdth="45"
+            height="45"
+            src="contact.svg">
+          </a>
+        </li>
+      
+      </div>
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      <script>
+          let toggle = document.querySelector('.toggle');
+          let menu = document.querySelector('.menu');
+          toggle.onclick = function(){
+            menu.classList.toggle('active')
+          } 
+      </script>
+</body> 
+</html>
